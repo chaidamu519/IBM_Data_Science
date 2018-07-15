@@ -1,0 +1,35 @@
+ In this assessment, you will make a randomly generated album cover. The album cover will consist of the name of the band and the name of the album; these will be titles from two randomly selected Wikipedia articles. Each title will be placed on the top and bottom of the cover the order does not matter. You will apply your knowledge of indexing, using functions and methods, importing libraries and working with strings.
+
+You will be given a templet notebook in the section Fake Album Cover Game Lab with all the instructions, with much of the code you need.
+
+You will receive one mark for most questions; two questions are worth two marks. You will go to the lab: Make a Fake Album Cover Game Lab and complete the following steps.
+
+The first step is to use the function display_cover to display the 'Python' on the top of the album cover and 'Data Science' on the bottom, as shown here:
+
+
+The second step is getting a random page from Wikipedia and converting it to a string; we will use a lot of build-in functions for this step. The result should look something like this:
+
+
+The third step is to extract the title of the article that is enclosed within HTML tag titles and get rid of the phrase - Wikipedia, then assign it to the variable band_title.
+
+For the fourth step you will repeat the second and third step, but assign the value to the variable album_title.
+
+Finally, you will use the function display_cover to print out the album cover with two random article titles representing the name of the band and the title of the album. The result should look something like this:
+
+
+Finally, when you have completed the notebook download it using the arrow on the top of the screen as shown in the image below and submit it.
+
+
+Now go to the next section Make a Fake Album Cover Game Lab and start the assignment.
+Review criterialess 
+1 mark use the function display_cover function to display the image with the name Python on the top and Data Science on the bottom, here is an example:
+
+
+1 mark: Use the function get from the requests library to access the Wikipedia page and convert it to a string. The output should look something like this:
+
+
+2 marks: Use the title of the Wikipedia article as the title of the band. The title of the article is surrounded by the HTML tag title as follows: <title>title - Wikipedia</title> you must also eliminate the term Wikipedia (1 mark for partial completion ).
+
+2 marks: For the fourth step you will repeat the second and third step, but use the result for the album title (1 mark for partial completion )
+
+1 mark: Finally, you will use the function display_cover to print out the album cover with two random article titles representing the name of the band and the title of the album, for example:
